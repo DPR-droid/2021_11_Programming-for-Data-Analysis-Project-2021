@@ -11,3 +11,16 @@
 # Importing all the modules required for the juypter Notbook
 # All imports are listed in the requirments.txt
 ########################################################################
+
+# Imports
+
+import pandas as pd
+import warnings
+warnings.filterwarnings('ignore')
+
+
+# import data from data folder
+# https://github.com/TarekDib03/Analytics/blob/master/Week3%20-%20Logistic%20Regression/Data/framingham.csv
+df = pd.read_csv("data/framingham.csv")
+print(df.head(5))
+
