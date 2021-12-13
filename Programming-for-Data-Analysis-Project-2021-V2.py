@@ -18,6 +18,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
+
+
 import warnings
 
 warnings.filterwarnings('ignore')
@@ -88,3 +91,16 @@ print('\n\n#####################################################################
 print('Get histogram of Age \n\n')
 df.hist(column='age')
 plt.show()
+
+print('\n\n########################################################################')
+
+# Investigate with Seaborn
+# Plot colored
+sns.pairplot(High_corr, 
+             vars = ['TenYearCHD','age','sysBP','prevalentHyp','diaBP','glucose', 'diabetes'], 
+             hue="TenYearCHD", diag_kind = 'kde', 
+             plot_kws = {'alpha': 0.6, 's': 80, 'edgecolor': 'k'},
+             size = 4);# Title 
+plt.suptitle('Pair Plot of Farmington Data', size = 28)
+plt.show()
+
