@@ -70,7 +70,7 @@ To develop a futher understanding of the data I found the levels of over 180 of 
 - Create a Histogram and Boxplot on the data 
     - Identify the numpy.random distribution for the variables
 
-![FramDistribution](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/Data/FramDistribution.png)
+![FramDistribution](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/FramDistribution.png)
 
 ![FramBoxplot](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/FramBoxplot.png)
 
@@ -96,7 +96,7 @@ To develop a futher understanding of the data I found the levels of over 180 of 
 
 To conclude that the correct packages of NumPy.random (choice and normal) is the most suited to their likely distributions for selected variables. The output using the described function for both datasets demonstrate only minor changes in Mean and standard deviation. The outlier in Systolic Blood Pressure and Glucose Levels affect the outcome of Hypertensive and Diabetes respectively.
 
-![Real-v-Sim](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/Real-v-Sim.png)
+![Real-v-Sim](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/data/Real-v-Sim.png)
 
 The comparison of the both sets of data can be visualised with the plots
 
@@ -114,7 +114,7 @@ The comparison of the both sets of data can be visualised with the plots
 	Compare Age:
 	I could have used uniform data for this section, to replicate the 'Age' I decided to recreate using non-uniform and the probabilities associated with each entry.
 
-![Comparedataframes](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/Comparedataframes.png)
+![Comparedataframes](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/data/Comparedataframes.png)
 
 
 ### A pair plot of both datasets:
@@ -122,9 +122,9 @@ The comparison of the both sets of data can be visualised with the plots
 	Scatter plots are used to observe relationships between variables. The four by four matrix illustrates the normal distribution of the data. The scatterplot clearly shows the simulated data does not account for the outliers in Systolic Blood Pressure and Glucose Levels.
 
 
-![pairplotFram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/Data/pairplotFram.png)
+![pairplotFram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/pairplotFram.png)
 
-![pairplotNewFram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/Data/pairplotNewFram.png)
+![pairplotNewFram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/pairplotNewFram.png)
 
 
 ### Conclusion:
