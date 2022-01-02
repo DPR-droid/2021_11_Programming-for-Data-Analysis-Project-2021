@@ -24,10 +24,10 @@ The purpose of this assessment is to demonstrate the learning outcomes using Num
     - 2.5 Biggest challenge
     - 2.6 Future Challanges
 3. How to Use the Project
-    - 4.1 Github
-    - 4.2 NBViewer
-    - 4.3 Binder
-    - 4.4 Try at home
+    - 3.1 Github
+    - 3.2 NBViewer
+    - 3.3 Binder
+    - 3.4 Try at home
 4. Acknowledgement
 5. References
 
@@ -70,9 +70,9 @@ To develop a futher understanding of the data I found the levels of over 180 of 
 - Create a Histogram and Boxplot on the data 
     - Identify the numpy.random distribution for the variables
 
-![Histogram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/FarmDistribution.png)
+![FramDistribution](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/FramDistribution.png)
 
-![Boxplot](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/FarmBoxplot.png)
+![FramBoxplot](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/FramBoxplot.png)
 
 - Group the rows and columns by 'Age' groups
     - Mean and Standard deviation for each Group for 
@@ -92,13 +92,15 @@ To develop a futher understanding of the data I found the levels of over 180 of 
 
 ## 2.4 Conclusion
 
-To conclude that the correct packages of NumPy.random (choice and normal) is the most suited to their likely distributions for selected variables. 
+## Conclusion
 
-![Farmington.png](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/Farmington.png)
+To conclude that the correct packages of NumPy.random (choice and normal) is the most suited to their likely distributions for selected variables. The output using the described function for both datasets demonstrate only minor changes in Mean and standard deviation. The outlier in Systolic Blood Pressure and Glucose Levels affect the outcome of Hypertensive and Diabetes respectively.
 
-![NPRFarmington.png](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/NPRFarmington.png)
+![Real-v-Sim](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/Real-v-Sim.png)
 
-### Histogram Overlay:
+The comparison of the both sets of data can be visualised with the plots
+
+### The 4 x 4 Histogram overlay the Numpy.random simulated data over the real-world data.:
 
 	Compare Systolic Blood Pressure
 	This is a normal distribution, outliers are not accounted for in the simulated data
@@ -112,16 +114,17 @@ To conclude that the correct packages of NumPy.random (choice and normal) is the
 	Compare Age:
 	I could have used uniform data for this section, to replicate the 'Age' I decided to recreate using non-uniform and the probabilities associated with each entry.
 
-![Comparedataframes.png](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/Comparedataframes.png)
+![Comparedataframes](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/Comparedataframes.png)
 
-### Seaborn output:
+
+### A pair plot of both datasets:
 	
 	Scatter plots are used to observe relationships between variables. The four by four matrix illustrates the normal distribution of the data. The scatterplot clearly shows the simulated data does not account for the outliers in Systolic Blood Pressure and Glucose Levels.
 
-![pairplotFarm.png](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/pairplotFarm.png)
 
+![pairplotFram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/pairplotFram.png)
 
-![pairplotNewFarm.png](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/master/data/pairplotNewFarm.png)
+![pairplotNewFram](https://github.com/DPR-droid/Programming-for-Data-Analysis-Project-2021/blob/main/Data/pairplotNewFram.png)
 
 
 ### Conclusion:
@@ -146,7 +149,7 @@ Numpy.random is a useful tool for a data analyst to simulated data.
 
 - Analysing original data, correlating of Systolic and Diastolic Blood Pressure for Hypertension. 
 - What other factors caused the many outliers in the glucose levels?
-- Other distribution for glucose levels and Systolic Blood Pressure
+- Other distribution to closely match Glucose levels and Systolic Blood Pressure
 - Machine learning to allow user to test 
 - 
 
