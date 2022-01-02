@@ -135,9 +135,9 @@ Numpy.random is a useful tool for a data analyst to simulated data.
 ## 2.5 What did I learn?
 
 - How to use numpy.random to simulate real-world data
-- How to use the describe function and plots interpt data.
+- How to use the describe function and plots to interpret data.
 - How to use a correlation matrix investigates the dependence between multiple variables at the same time
-- Valibale resource of using online research
+- A valuable resource of using online research
 
 ## 2.6 Biggest challenge
 
@@ -145,13 +145,12 @@ Numpy.random is a useful tool for a data analyst to simulated data.
 - Research on data that I am unfamiliar with
 - Use a correlation matrix to investigate the dependence between multiple variables at the same time
 
-## 2.7 Future Challanges
+## 2.7 Future Challenges
 
 - Analysing original data, correlating of Systolic and Diastolic Blood Pressure for Hypertension. 
 - What other factors caused the many outliers in the glucose levels?
 - Other distribution to closely match Glucose levels and Systolic Blood Pressure
-- Machine learning to allow user to test 
-- 
+- Machine learning to allow the user to test 
 
 ***
 
